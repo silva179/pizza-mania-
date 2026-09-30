@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mania de Lanches e Pizza | Lanchonete e Pizzaria em Campos dos Goytacazes</title>
+<meta name="description" content="Lanches e pizzas em Campos dos Goytacazes. Consulte o cardápio e faça seu pedido.">
+<meta property="og:title" content="Mania de Lanches e Pizza | Lanchonete e Pizzaria em Campos dos Goytacazes">
+<meta property="og:description" content="Lanches e pizzas em Campos dos Goytacazes. Consulte o cardápio e faça seu pedido.">
+<meta property="og:type" content="restaurant">
+<meta property="og:locale" content="pt_BR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Mania de Lanches e Pizza","telephone":["+55-22-99898-1123","+55-22-99958-9219"],"servesCuisine":["Pizza","Lanches"],"address":{"@type":"PostalAddress","streetAddress":"Av. Alberto Torres, 600","addressLocality":"Campos dos Goytacazes","addressRegion":"RJ","addressCountry":"BR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"19:00","closes":"00:00"}],"sameAs":["https://www.instagram.com/maniadelanchesepizza_"]}</script>
+<style>
+:root{--bg:#150F0C;--surface:#221814;--line:#3D2D24;--red:#D42A18;--yellow:#FFC72C;--text:#F7EBDD;--muted:#C2B2A1;--ink:#1A0F08;
+--head:'Bricolage Grotesque','Arial Black',system-ui,sans-serif;--body:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+box-sizing:border-box;color-scheme:dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{height:100%;scroll-padding-top:calc(120px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--text);font:400 1.0625rem/1.6 var(--body);-webkit-text-size-adjust:100%}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.wrap{width:min(1120px,100% - 32px);margin-inline:auto}
+h1,h2,h3{font-family:var(--head);line-height:1.08;margin:0;letter-spacing:-.02em}
+h2{font-size:clamp(1.9rem,5vw,2.8rem);font-weight:800}
+h3{font-size:1.35rem;font-weight:800}
+section{padding:56px 0}
+.lead{color:var(--muted);max-width:60ch;margin:12px 0 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 24px;border-radius:999px;border:2px solid transparent;font:700 1rem var(--body);text-decoration:none;cursor:pointer;text-align:center}
+.btn.red{background:var(--red);color:#fff}
+.btn.yellow{background:var(--yellow);color:var(--ink)}
+.btn.line{border-color:var(--yellow);color:var(--yellow);background:transparent}
+.btn:hover{filter:brightness(1.1)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(21,15,12,.96);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0}
+.brand{font:800 clamp(1.05rem,4.6vw,1.5rem) var(--head);line-height:1.1;text-decoration:none;color:var(--yellow)}
+nav{display:flex;gap:4px;overflow-x:auto;padding-bottom:8px;scrollbar-width:none}
+nav a{padding:8px 14px;border-radius:999px;text-decoration:none;color:var(--muted);white-space:nowrap;font-weight:500}
+nav a:hover{color:var(--text);background:var(--surface)}
+.hero{padding:40px 0 56px;background:radial-gradient(120% 80% at 80% 0,#3a1a10 0,var(--bg) 60%)}
+.hero .wrap{display:grid;gap:32px;align-items:center}
+h1{font-size:clamp(2.4rem,9vw,4.6rem);font-weight:800}
+.hero p{font-size:1.15rem;color:var(--muted);max-width:44ch;margin:16px 0 24px}
+.cta{display:grid;gap:12px}
+.pic{aspect-ratio:1;border-radius:50%;width:min(100%,460px);margin-inline:auto;overflow:hidden;background:conic-gradient(from 20deg,var(--red) 0 25%,var(--yellow) 0 50%,var(--red) 0 75%,var(--yellow) 0);border:10px solid var(--surface);box-shadow:0 0 0 2px var(--line)}
+.pic img{width:100%;height:100%;object-fit:cover}
+.cats{display:grid;gap:16px;margin-top:28px}
+.cat{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:20px}
+.cat h3{color:var(--yellow);margin-bottom:12px}
+.cat ul{list-style:none;margin:0;padding:0;display:grid;gap:16px}
+.cat li{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:start}
+.cat li img{width:64px;height:64px;object-fit:cover;border-radius:12px}
+.cat li:not(:has(img)){grid-template-columns:1fr auto}
+.cat p{margin:2px 0 0;color:var(--muted);font-size:.95rem}
+.cat li span{font-weight:700;color:var(--yellow)}
+.empty{color:var(--muted);margin:0}
+.offers{background:var(--red);border-radius:24px;padding:28px}
+.offers ul{margin:12px 0 0;padding-left:20px}
+.offers p{margin:8px 0 0}
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:28px}
+.gal figure{margin:0;border-radius:16px;overflow:hidden;background:var(--surface);border:1px solid var(--line)}
+.gal img,.gal .ph{aspect-ratio:1;width:100%;object-fit:cover}
+.gal .ph{display:grid;place-items:center;color:var(--muted);text-align:center;padding:8px;font-size:.95rem}
+.gal figcaption{padding:8px 12px;font-size:.9rem;color:var(--muted)}
+.info{display:grid;gap:16px;margin-top:28px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:20px}
+.box b{color:var(--yellow)}
+.quick{display:grid;gap:12px;margin-top:20px}
+form{display:grid;gap:14px;margin-top:24px;max-width:560px}
+label{display:grid;gap:6px;font-weight:500}
+input,textarea,select{font:inherit;color:var(--text);background:#120c09;border:1px solid #5a4536;border-radius:12px;padding:12px;min-height:48px;width:100%}
+textarea{min-height:120px;resize:vertical}
+.chk{display:flex;gap:10px;align-items:flex-start;font-weight:400;color:var(--muted);font-size:.95rem}
+.chk input{width:22px;min-height:22px;margin-top:3px;accent-color:var(--red)}
+footer{border-top:1px solid var(--line);padding:32px 0 96px;color:var(--muted);font-size:.95rem}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;background:#25D366;color:#06210f;min-height:56px;padding:0 22px;border-radius:999px;display:inline-flex;align-items:center;font-weight:700;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.5)}
+#admin{background:#0e0a08;border-top:4px solid var(--yellow)}
+#admin .row{display:grid;gap:8px;margin:12px 0;padding:12px;border:1px solid var(--line);border-radius:12px}
+#admin form{max-width:none}
+.map{margin-top:16px;border:1px solid var(--line);border-radius:20px;padding:24px;display:grid;gap:16px;background:linear-gradient(135deg,transparent 48%,#4a3226 49% 51%,transparent 52%),repeating-linear-gradient(0deg,transparent 0 39px,#2c201a 39px 41px),repeating-linear-gradient(90deg,transparent 0 39px,#2c201a 39px 41px),var(--surface)}
+.map b{color:var(--yellow)}.map p{margin:6px 0 0}
+.mapbtns{display:grid;gap:12px}
+@media(min-width:800px){.map{grid-template-columns:1fr auto;align-items:center}.mapbtns{grid-auto-flow:column}}
+[hidden]{display:none!important}
+@media(min-width:800px){
+.bar{padding:14px 0}nav{padding:0}
+.hero .wrap{grid-template-columns:1.1fr .9fr}
+.cta{grid-template-columns:auto auto;justify-content:start}
+.cats{grid-template-columns:repeat(2,1fr)}
+.gal{grid-template-columns:repeat(3,1fr)}
+.info{grid-template-columns:repeat(3,1fr)}
+.quick{grid-template-columns:repeat(3,auto);justify-content:start}
+header .wrap{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px}
+header .bar{display:contents}
+header nav{grid-column:2;grid-row:1;justify-content:center}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="bar">
+<a class="brand" href="#inicio">Mania de Lanches e Pizza</a>
+<a class="btn red" id="hdr-order" href="https://wa.me/5522998981123" rel="noopener">Peça agora</a>
+</div>
+<nav aria-label="Principal">
+<a href="#inicio">Início</a><a href="#cardapio">Cardápio</a><a href="#ofertas">Ofertas</a><a href="#galeria">Galeria</a><a href="#informacoes">Informações</a><a href="#contato">Contato</a>
+</nav>
+</div>
+</header>
+
+<main id="inicio">
+<div class="hero">
+<div class="wrap">
+<div>
+<h1>Pizza e lanches para deixar sua noite mais gostosa</h1>
+<p>Lanchonete e pizzaria em Campos dos Goytacazes - RJ. Veja o cardápio e faça seu pedido.</p>
+<div class="cta">
+<a class="btn yellow" href="#cardapio">Ver cardápio</a>
+<a class="btn red" href="https://wa.me/5522998981123?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20na%20Mania%20de%20Lanches%20e%20Pizza." rel="noopener">Pedir pelo WhatsApp</a>
+</div>
+</div>
+<div class="pic" id="heroimg" data-r></div>
+</div>
+</div>
+
+<section id="cardapio">
+<div class="wrap">
+<h2>Cardápio</h2>
+<p class="lead">Pizzas, lanches, salgados, combos e bebidas. O perfil informa atendimento pelo iFood. Você também pode pedir pelo WhatsApp.</p>
+<p style="margin-top:20px"><a class="btn red" id="anota-btn" href="#" target="_blank" rel="noopener" hidden>Fazer pedido na iFood</a></p>
+<div class="cats" id="menu" data-r></div>
+</div>
+</section>
+
+<section id="ofertas">
+<div class="wrap">
+<div class="offers">
+<h2>Ofertas</h2>
+<div id="offers" data-r></div>
+</div>
+</div>
+</section>
+
+<section id="galeria">
+<div class="wrap">
+<h2>Galeria</h2>
+<p class="lead">Pizzas, hambúrgueres, salgados, combos e os bastidores da Mania de Lanches e Pizza.</p>
+<div class="gal" id="gallery" data-r></div>
+</div>
+</section>
+
+<section id="informacoes">
+<div class="wrap">
+<h2>Informações</h2>
+<p class="lead">Pizzaria e lanches em Campos dos Goytacazes. Consulte o cardápio e faça seu pedido pelo WhatsApp ou pela iFood.</p>
+<div class="info">
+<div class="box"><b>Funcionamento</b><p id="hours" style="margin:6px 0 0">Todos os dias, das 19h às 00h</p></div>
+<div class="box"><b>Telefones</b><p style="margin:6px 0 0"><a href="tel:+5522998981123">(22) 99898-1123</a><br><a href="tel:+5522999589219">(22) 99958-9219</a></p></div>
+<div class="box"><b>Endereço</b><p style="margin:6px 0 0">Av. Alberto Torres, 600, Parque Leopoldina<br>Campos dos Goytacazes - RJ</p></div>
+</div>
+<div class="map">
+<div><b>Como chegar</b><p>Av. Alberto Torres, 600, Parque Leopoldina<br>Campos dos Goytacazes - RJ</p></div>
+<div class="mapbtns">
+<a class="btn yellow" href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Alberto+Torres%2C+600%2C+Parque+Leopoldina%2C+Campos+dos+Goytacazes+-+RJ" target="_blank" rel="noopener">Abrir no Google Maps</a>
+<a class="btn line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Av.+Alberto+Torres%2C+600%2C+Parque+Leopoldina%2C+Campos+dos+Goytacazes+-+RJ" target="_blank" rel="noopener">Traçar rota</a>
+</div>
+</div>
+<div class="quick">
+<a class="btn red" href="tel:+5522998981123">Ligar agora</a>
+<a class="btn yellow" href="https://wa.me/5522998981123?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20na%20Mania%20de%20Lanches%20e%20Pizza." rel="noopener">Pedir</a>
+<a class="btn line" href="https://www.instagram.com/maniadelanchesepizza_" target="_blank" rel="noopener">Instagram @maniadelanchesepizza_</a>
+</div>
+</div>
+</section>
+
+<section id="contato">
+<div class="wrap">
+<h2>Contato</h2>
+<p class="lead">Envie sua mensagem. Ela abrirá no seu WhatsApp, pronta para enviar à Mania de Lanches e Pizza.</p>
+<form id="cf">
+<label>Nome<input name="n" autocomplete="name" required></label>
+<label>Telefone<input name="t" type="tel" autocomplete="tel" inputmode="tel" required></label>
+<label>Mensagem<textarea name="m" required></textarea></label>
+<label class="chk"><input type="checkbox" name="c" required><span>Concordo em enviar meu nome, telefone e mensagem à Mania de Lanches e Pizza pelo WhatsApp para receber retorno. Este site não armazena esses dados.</span></label>
+<button class="btn red" type="submit">Enviar pelo WhatsApp</button>
+</form>
+</div>
+</section>
+
+<section id="admin" hidden data-r></section>
+</main>
+
+<footer>
+<div class="wrap">
+<p>Mania de Lanches e Pizza · Campos dos Goytacazes - RJ · <a href="https://www.instagram.com/maniadelanchesepizza_" target="_blank" rel="noopener">@maniadelanchesepizza_</a></p>
+</div>
+</footer>
+
+<a class="fab" href="https://wa.me/5522998981123" rel="noopener" aria-label="Chamar no WhatsApp">WhatsApp</a>
+
+<script id="data" type="application/json">{"anota": "", "hours": "Todos os dias, das 19h às 00h", "offers": "", "hero": "", "heroAlt": "", "products": [], "gallery": []}</script>
+<script>
+const $=s=>document.querySelector(s),D=JSON.parse($('#data').textContent);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const CATS=['Pizzas','Lanches','Salgados','Combos','Bebidas'],WA='https://wa.me/5522998981123';
+function render(){
+ $('#hours').textContent=D.hours;
+ $('#hdr-order').href=D.anota||WA;
+ const ab=$('#anota-btn');ab.hidden=!D.anota;if(D.anota)ab.href=D.anota;
+ $('#heroimg').innerHTML=D.hero?`<img src="${D.hero}" alt="${esc(D.heroAlt||'Pizza da Mania de Lanches e Pizza')}" width="460" height="460" fetchpriority="high">`:'';
+ $('#menu').innerHTML=CATS.map(c=>{const it=D.products.filter(p=>p.c===c);
+  return `<div class="cat"><h3>${c}</h3>`+(it.length?'<ul>'+it.map(p=>`<li>${p.i?`<img src="${p.i}" alt="${esc(p.n)}" width="64" height="64" loading="lazy">`:''}<div><b>${esc(p.n)}</b>${p.d?`<p>${esc(p.d)}</p>`:''}</div><span>${esc(p.p)}</span></li>`).join('')+'</ul>':`<p class="empty">Consulte as opções de ${c.toLowerCase()} no cardápio da iFood ou pelo WhatsApp.</p>`)+'</div>'}).join('');
+ const lines=(D.offers||'').split('\n').map(s=>s.trim()).filter(Boolean);
+ $('#offers').innerHTML=lines.length?'<ul>'+lines.map(l=>`<li>${esc(l)}</li>`).join('')+'</ul>':'<p>Consulte as ofertas atuais no cardápio da iFood ou pergunte pelo WhatsApp.</p>';
+ $('#gallery').innerHTML=D.gallery.length?D.gallery.map(g=>`<figure><img src="${g.src}" alt="${esc(g.alt)}" width="400" height="400" loading="lazy"><figcaption>${esc(g.cap)}</figcaption></figure>`).join(''):['Pizzas','Hambúrgueres','Salgados','Combos','Bastidores'].map(t=>`<figure><div class="ph">${t}: foto em breve</div></figure>`).join('');
+}
+render();
+$('#cf').addEventListener('submit',e=>{e.preventDefault();const f=e.target;
+ const t=`Olá! Meu nome é ${f.n.value}. Telefone: ${f.t.value}.\n${f.m.value}`;
+ window.open(WA+'?text='+encodeURIComponent(t),'_blank','noopener')});
+
+/* Painel do proprietário: aparece só para quem pode editar esta página */
+const toWebp=(file,max)=>new Promise(r=>{const i=new Image();i.onload=()=>{const k=Math.min(1,max/i.width),c=document.createElement('canvas');c.width=Math.round(i.width*k);c.height=Math.round(i.height*k);c.getContext('2d').drawImage(i,0,0,c.width,c.height);r(c.toDataURL('image/webp',.78))};i.src=URL.createObjectURL(file)});
+(async()=>{
+ if(!window.claude?.use)return;
+ const u=await claude.use('user'),art=await claude.use('artifact');
+ if(!u||!art||!u.canEdit())return;
+ const A=$('#admin');A.hidden=false;
+ const draw=()=>{A.innerHTML=`<div class="wrap"><h2>Painel do proprietário</h2><p class="lead">Edite e clique em “Salvar e publicar”. Só você vê este painel.</p>
+ <form onsubmit="return false"><label>Link do cardápio na iFood<input id="a-anota" type="url" value="${esc(D.anota)}" placeholder="https://"></label>
+ <label>Horário de funcionamento<input id="a-hours" value="${esc(D.hours)}"></label>
+ <label>Ofertas (uma por linha; deixe vazio se não houver)<textarea id="a-offers">${esc(D.offers)}</textarea></label>
+ <label>Foto principal (autorizada)<input id="a-hero" type="file" accept="image/*"></label>
+ <label>Texto alternativo da foto principal<input id="a-heroalt" value="${esc(D.heroAlt)}"></label></form>
+ <h3 style="margin-top:28px">Produtos</h3>
+ <form onsubmit="return false"><label>Categoria<select id="p-c">${CATS.map(c=>`<option>${c}</option>`).join('')}</select></label>
+ <label>Nome<input id="p-n"></label><label>Descrição<input id="p-d"></label><label>Preço (como quer exibir)<input id="p-p"></label>
+ <label>Foto (opcional)<input id="p-i" type="file" accept="image/*"></label><button class="btn yellow" id="p-add">Adicionar produto</button></form>
+ ${D.products.map((p,i)=>`<div class="row"><b>${esc(p.c)}: ${esc(p.n)} ${esc(p.p)}</b><button class="btn line" data-dp="${i}">Remover</button></div>`).join('')}
+ <h3 style="margin-top:28px">Galeria</h3>
+ <form onsubmit="return false"><label>Foto (autorizada)<input id="g-i" type="file" accept="image/*"></label><label>Texto alternativo<input id="g-a"></label><label>Legenda<input id="g-c"></label><button class="btn yellow" id="g-add">Adicionar à galeria</button></form>
+ ${D.gallery.map((g,i)=>`<div class="row"><b>${esc(g.cap||g.alt)}</b><button class="btn line" data-dg="${i}">Remover</button></div>`).join('')}
+ <p style="margin-top:28px"><button class="btn red" id="a-save">Salvar e publicar</button> <span id="a-msg" role="status"></span></p></div>`;
+ const sync=()=>{D.anota=$('#a-anota').value.trim();D.hours=$('#a-hours').value.trim()||D.hours;D.offers=$('#a-offers').value;D.heroAlt=$('#a-heroalt').value};
+ $('#a-hero').onchange=async e=>{if(e.target.files[0]){sync();D.hero=await toWebp(e.target.files[0],1000);render();draw()}};
+ $('#p-add').onclick=async()=>{sync();const n=$('#p-n').value.trim();if(!n)return;const f=$('#p-i').files[0];
+  D.products.push({c:$('#p-c').value,n,d:$('#p-d').value.trim(),p:$('#p-p').value.trim(),i:f?await toWebp(f,200):''});render();draw()};
+ $('#g-add').onclick=async()=>{sync();const f=$('#g-i').files[0];if(!f)return;D.gallery.push({src:await toWebp(f,800),alt:$('#g-a').value.trim(),cap:$('#g-c').value.trim()});render();draw()};
+ A.querySelectorAll('[data-dp]').forEach(b=>b.onclick=()=>{sync();D.products.splice(+b.dataset.dp,1);render();draw()});
+ A.querySelectorAll('[data-dg]').forEach(b=>b.onclick=()=>{sync();D.gallery.splice(+b.dataset.dg,1);render();draw()});
+ $('#a-save').onclick=async()=>{sync();render();const c=document.documentElement.cloneNode(true);
+  c.querySelector('#data').textContent=JSON.stringify(D).replace(/</g,'\\u003c');
+  c.querySelectorAll('[data-r]').forEach(e=>e.innerHTML='');c.querySelector('#admin').hidden=true;
+  c.querySelector('#hours').textContent=D.hours;
+  try{$('#a-msg').textContent='Publicando...';await art.publish('<!doctype html>\n'+c.outerHTML)}catch(err){$('#a-msg').textContent='Não foi possível publicar: '+(err.code||err.message||'erro')}};
+ };
+ draw();
+})();
+</script>
+</body>
+</html>
